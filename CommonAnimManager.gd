@@ -1,5 +1,7 @@
 @tool 
-
+#Assign this to a node as a variable in whatever main node you have, then set this export var to the AnimationPlayer you want to use
+#You'll usually need to click off of this node and back onto it to make it 'active'. From there you can assign the common animations as needed.
+#Whenever you want to access an animation from this node, you can use the get_anim(a) function to recieve the animation that should be played.
 class_name CommonAnimManager
 extends Node
 
